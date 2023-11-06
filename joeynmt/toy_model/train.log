@@ -1,0 +1,136 @@
+2023-11-01 15:18:28,172 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2023-11-01 15:18:28,173 - INFO - joeynmt.helpers -                           cfg.name : toy_experiment
+2023-11-01 15:18:28,173 - INFO - joeynmt.helpers -                cfg.joeynmt_version : 2.0.0
+2023-11-01 15:18:28,173 - INFO - joeynmt.helpers -                     cfg.data.train : test/data/toy/train
+2023-11-01 15:18:28,173 - INFO - joeynmt.helpers -                       cfg.data.dev : test/data/toy/dev
+2023-11-01 15:18:28,173 - INFO - joeynmt.helpers -                      cfg.data.test : test/data/toy/test
+2023-11-01 15:18:28,173 - INFO - joeynmt.helpers -              cfg.data.dataset_type : plain
+2023-11-01 15:18:28,173 - INFO - joeynmt.helpers -       cfg.data.sample_train_subset : -1
+2023-11-01 15:18:28,173 - INFO - joeynmt.helpers -         cfg.data.sample_dev_subset : -1
+2023-11-01 15:18:28,173 - INFO - joeynmt.helpers -                  cfg.data.src.lang : de
+2023-11-01 15:18:28,174 - INFO - joeynmt.helpers -            cfg.data.src.max_length : 30
+2023-11-01 15:18:28,174 - INFO - joeynmt.helpers -            cfg.data.src.min_length : 1
+2023-11-01 15:18:28,174 - INFO - joeynmt.helpers -             cfg.data.src.lowercase : False
+2023-11-01 15:18:28,174 - INFO - joeynmt.helpers -             cfg.data.src.normalize : False
+2023-11-01 15:18:28,174 - INFO - joeynmt.helpers -                 cfg.data.src.level : bpe
+2023-11-01 15:18:28,174 - INFO - joeynmt.helpers -             cfg.data.src.voc_limit : 400
+2023-11-01 15:18:28,174 - INFO - joeynmt.helpers -          cfg.data.src.voc_min_freq : 1
+2023-11-01 15:18:28,174 - INFO - joeynmt.helpers -              cfg.data.src.voc_file : test/data/toy/bpe200.txt
+2023-11-01 15:18:28,174 - INFO - joeynmt.helpers -        cfg.data.src.tokenizer_type : subword-nmt
+2023-11-01 15:18:28,174 - INFO - joeynmt.helpers - cfg.data.src.tokenizer_cfg.num_merges : 200
+2023-11-01 15:18:28,174 - INFO - joeynmt.helpers -   cfg.data.src.tokenizer_cfg.codes : test/data/toy/bpe200.codes
+2023-11-01 15:18:28,175 - INFO - joeynmt.helpers - cfg.data.src.tokenizer_cfg.dropout : 0.0
+2023-11-01 15:18:28,175 - INFO - joeynmt.helpers - cfg.data.src.tokenizer_cfg.pretokenizer : none
+2023-11-01 15:18:28,175 - INFO - joeynmt.helpers -                  cfg.data.trg.lang : en
+2023-11-01 15:18:28,175 - INFO - joeynmt.helpers -            cfg.data.trg.max_length : 30
+2023-11-01 15:18:28,175 - INFO - joeynmt.helpers -            cfg.data.trg.min_length : 1
+2023-11-01 15:18:28,175 - INFO - joeynmt.helpers -             cfg.data.trg.lowercase : False
+2023-11-01 15:18:28,175 - INFO - joeynmt.helpers -             cfg.data.trg.normalize : False
+2023-11-01 15:18:28,175 - INFO - joeynmt.helpers -                 cfg.data.trg.level : bpe
+2023-11-01 15:18:28,175 - INFO - joeynmt.helpers -             cfg.data.trg.voc_limit : 400
+2023-11-01 15:18:28,175 - INFO - joeynmt.helpers -          cfg.data.trg.voc_min_freq : 1
+2023-11-01 15:18:28,175 - INFO - joeynmt.helpers -              cfg.data.trg.voc_file : test/data/toy/bpe200.txt
+2023-11-01 15:18:28,176 - INFO - joeynmt.helpers -        cfg.data.trg.tokenizer_type : subword-nmt
+2023-11-01 15:18:28,176 - INFO - joeynmt.helpers - cfg.data.trg.tokenizer_cfg.num_merges : 200
+2023-11-01 15:18:28,176 - INFO - joeynmt.helpers -   cfg.data.trg.tokenizer_cfg.codes : test/data/toy/bpe200.codes
+2023-11-01 15:18:28,176 - INFO - joeynmt.helpers - cfg.data.trg.tokenizer_cfg.dropout : 0.0
+2023-11-01 15:18:28,176 - INFO - joeynmt.helpers - cfg.data.trg.tokenizer_cfg.pretokenizer : none
+2023-11-01 15:18:28,176 - INFO - joeynmt.helpers -                 cfg.testing.n_best : 1
+2023-11-01 15:18:28,176 - INFO - joeynmt.helpers -              cfg.testing.beam_size : 5
+2023-11-01 15:18:28,176 - INFO - joeynmt.helpers -             cfg.testing.beam_alpha : 1.0
+2023-11-01 15:18:28,176 - INFO - joeynmt.helpers -             cfg.testing.batch_size : 10
+2023-11-01 15:18:28,176 - INFO - joeynmt.helpers -             cfg.testing.batch_type : sentence
+2023-11-01 15:18:28,176 - INFO - joeynmt.helpers -           cfg.testing.eval_metrics : ['bleu']
+2023-11-01 15:18:28,177 - INFO - joeynmt.helpers -      cfg.testing.max_output_length : 31
+2023-11-01 15:18:28,177 - INFO - joeynmt.helpers -      cfg.testing.min_output_length : 1
+2023-11-01 15:18:28,177 - INFO - joeynmt.helpers -            cfg.testing.return_prob : none
+2023-11-01 15:18:28,177 - INFO - joeynmt.helpers -           cfg.testing.generate_unk : True
+2023-11-01 15:18:28,177 - INFO - joeynmt.helpers -   cfg.testing.no_repeat_ngram_size : -1
+2023-11-01 15:18:28,177 - INFO - joeynmt.helpers -     cfg.testing.repetition_penalty : -1
+2023-11-01 15:18:28,177 - INFO - joeynmt.helpers - cfg.testing.sacrebleu_cfg.whitespace : False
+2023-11-01 15:18:28,177 - INFO - joeynmt.helpers - cfg.testing.sacrebleu_cfg.tokenize : 13a
+2023-11-01 15:18:28,177 - INFO - joeynmt.helpers -       cfg.training.reset_best_ckpt : False
+2023-11-01 15:18:28,177 - INFO - joeynmt.helpers -       cfg.training.reset_scheduler : False
+2023-11-01 15:18:28,177 - INFO - joeynmt.helpers -       cfg.training.reset_optimizer : False
+2023-11-01 15:18:28,178 - INFO - joeynmt.helpers -      cfg.training.reset_iter_state : False
+2023-11-01 15:18:28,178 - INFO - joeynmt.helpers -           cfg.training.random_seed : 42
+2023-11-01 15:18:28,178 - INFO - joeynmt.helpers -             cfg.training.optimizer : adam
+2023-11-01 15:18:28,178 - INFO - joeynmt.helpers -            cfg.training.adam_betas : [0.9, 0.999]
+2023-11-01 15:18:28,178 - INFO - joeynmt.helpers -         cfg.training.learning_rate : 0.005
+2023-11-01 15:18:28,178 - INFO - joeynmt.helpers -     cfg.training.learning_rate_min : 0.0001
+2023-11-01 15:18:28,178 - INFO - joeynmt.helpers -         cfg.training.clip_grad_val : 1.0
+2023-11-01 15:18:28,178 - INFO - joeynmt.helpers -          cfg.training.weight_decay : 0.0
+2023-11-01 15:18:28,178 - INFO - joeynmt.helpers -                  cfg.training.loss : crossentropy
+2023-11-01 15:18:28,178 - INFO - joeynmt.helpers -       cfg.training.label_smoothing : 0.0
+2023-11-01 15:18:28,178 - INFO - joeynmt.helpers -            cfg.training.batch_size : 10
+2023-11-01 15:18:28,179 - INFO - joeynmt.helpers -            cfg.training.batch_type : sentence
+2023-11-01 15:18:28,179 - INFO - joeynmt.helpers -      cfg.training.batch_multiplier : 1
+2023-11-01 15:18:28,179 - INFO - joeynmt.helpers -         cfg.training.normalization : batch
+2023-11-01 15:18:28,179 - INFO - joeynmt.helpers -            cfg.training.scheduling : plateau
+2023-11-01 15:18:28,179 - INFO - joeynmt.helpers -              cfg.training.patience : 5
+2023-11-01 15:18:28,179 - INFO - joeynmt.helpers -       cfg.training.decrease_factor : 0.5
+2023-11-01 15:18:28,179 - INFO - joeynmt.helpers -                cfg.training.epochs : 1
+2023-11-01 15:18:28,179 - INFO - joeynmt.helpers -               cfg.training.updates : 100
+2023-11-01 15:18:28,179 - INFO - joeynmt.helpers -       cfg.training.validation_freq : 10
+2023-11-01 15:18:28,179 - INFO - joeynmt.helpers -          cfg.training.logging_freq : 10
+2023-11-01 15:18:28,179 - INFO - joeynmt.helpers - cfg.training.early_stopping_metric : loss
+2023-11-01 15:18:28,180 - INFO - joeynmt.helpers -             cfg.training.model_dir : toy_model
+2023-11-01 15:18:28,180 - INFO - joeynmt.helpers -             cfg.training.overwrite : False
+2023-11-01 15:18:28,180 - INFO - joeynmt.helpers -               cfg.training.shuffle : True
+2023-11-01 15:18:28,180 - INFO - joeynmt.helpers -              cfg.training.use_cuda : False
+2023-11-01 15:18:28,180 - INFO - joeynmt.helpers -                  cfg.training.fp16 : True
+2023-11-01 15:18:28,180 - INFO - joeynmt.helpers -     cfg.training.print_valid_sents : [0, 1, 2]
+2023-11-01 15:18:28,180 - INFO - joeynmt.helpers -       cfg.training.keep_best_ckpts : 3
+2023-11-01 15:18:28,180 - INFO - joeynmt.helpers -              cfg.model.initializer : xavier_uniform
+2023-11-01 15:18:28,180 - INFO - joeynmt.helpers -              cfg.model.init_weight : 0.01
+2023-11-01 15:18:28,180 - INFO - joeynmt.helpers -                cfg.model.init_gain : 1.0
+2023-11-01 15:18:28,180 - INFO - joeynmt.helpers -         cfg.model.bias_initializer : zeros
+2023-11-01 15:18:28,181 - INFO - joeynmt.helpers -        cfg.model.embed_initializer : normal
+2023-11-01 15:18:28,181 - INFO - joeynmt.helpers -        cfg.model.embed_init_weight : 0.1
+2023-11-01 15:18:28,181 - INFO - joeynmt.helpers -          cfg.model.embed_init_gain : 1.0
+2023-11-01 15:18:28,181 - INFO - joeynmt.helpers -      cfg.model.init_rnn_orthogonal : False
+2023-11-01 15:18:28,181 - INFO - joeynmt.helpers -         cfg.model.lstm_forget_gate : 1.0
+2023-11-01 15:18:28,181 - INFO - joeynmt.helpers -          cfg.model.tied_embeddings : False
+2023-11-01 15:18:28,181 - INFO - joeynmt.helpers -             cfg.model.tied_softmax : False
+2023-11-01 15:18:28,181 - INFO - joeynmt.helpers -             cfg.model.encoder.type : recurrent
+2023-11-01 15:18:28,181 - INFO - joeynmt.helpers -         cfg.model.encoder.rnn_type : gru
+2023-11-01 15:18:28,181 - INFO - joeynmt.helpers - cfg.model.encoder.embeddings.embedding_dim : 16
+2023-11-01 15:18:28,181 - INFO - joeynmt.helpers - cfg.model.encoder.embeddings.scale : False
+2023-11-01 15:18:28,182 - INFO - joeynmt.helpers - cfg.model.encoder.embeddings.freeze : False
+2023-11-01 15:18:28,182 - INFO - joeynmt.helpers -      cfg.model.encoder.hidden_size : 30
+2023-11-01 15:18:28,182 - INFO - joeynmt.helpers -    cfg.model.encoder.bidirectional : True
+2023-11-01 15:18:28,182 - INFO - joeynmt.helpers -          cfg.model.encoder.dropout : 0.2
+2023-11-01 15:18:28,182 - INFO - joeynmt.helpers -       cfg.model.encoder.num_layers : 3
+2023-11-01 15:18:28,182 - INFO - joeynmt.helpers -           cfg.model.encoder.freeze : False
+2023-11-01 15:18:28,182 - INFO - joeynmt.helpers -             cfg.model.decoder.type : recurrent
+2023-11-01 15:18:28,182 - INFO - joeynmt.helpers -         cfg.model.decoder.rnn_type : gru
+2023-11-01 15:18:28,182 - INFO - joeynmt.helpers - cfg.model.decoder.embeddings.embedding_dim : 16
+2023-11-01 15:18:28,182 - INFO - joeynmt.helpers - cfg.model.decoder.embeddings.scale : False
+2023-11-01 15:18:28,182 - INFO - joeynmt.helpers - cfg.model.decoder.embeddings.freeze : False
+2023-11-01 15:18:28,183 - INFO - joeynmt.helpers -      cfg.model.decoder.hidden_size : 30
+2023-11-01 15:18:28,183 - INFO - joeynmt.helpers -          cfg.model.decoder.dropout : 0.2
+2023-11-01 15:18:28,183 - INFO - joeynmt.helpers -   cfg.model.decoder.hidden_dropout : 0.2
+2023-11-01 15:18:28,183 - INFO - joeynmt.helpers -       cfg.model.decoder.num_layers : 2
+2023-11-01 15:18:28,183 - INFO - joeynmt.helpers -    cfg.model.decoder.input_feeding : True
+2023-11-01 15:18:28,183 - INFO - joeynmt.helpers -      cfg.model.decoder.init_hidden : last
+2023-11-01 15:18:28,183 - INFO - joeynmt.helpers -        cfg.model.decoder.attention : bahdanau
+2023-11-01 15:18:28,183 - INFO - joeynmt.helpers -           cfg.model.decoder.freeze : False
+2023-11-01 15:18:28,183 - INFO - joeynmt.helpers -       cfg.model.decoder.activation : relu
+2023-11-01 15:18:28,409 - INFO - joeynmt.data - Building tokenizer...
+2023-11-01 15:18:28,410 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(1, 30), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2023-11-01 15:18:28,410 - INFO - joeynmt.tokenizers - en tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(1, 30), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2023-11-01 15:18:28,411 - INFO - joeynmt.data - Loading train set...
+2023-11-01 15:18:28,412 - INFO - joeynmt.data - Building vocabulary...
+2023-11-01 15:18:28,413 - INFO - joeynmt.data - Loading dev set...
+2023-11-01 15:18:28,413 - INFO - joeynmt.data - Loading test set...
+2023-11-01 15:18:28,413 - INFO - joeynmt.data - Data loaded.
+2023-11-01 15:18:28,413 - INFO - joeynmt.data - Train dataset: PlaintextDataset(split=train, len=1000, src_lang=de, trg_lang=en, has_trg=True, random_subset=-1)
+2023-11-01 15:18:28,413 - INFO - joeynmt.data - Valid dataset: PlaintextDataset(split=dev, len=20, src_lang=de, trg_lang=en, has_trg=True, random_subset=-1)
+2023-11-01 15:18:28,413 - INFO - joeynmt.data -  Test dataset: PlaintextDataset(split=test, len=20, src_lang=de, trg_lang=en, has_trg=False, random_subset=-1)
+2023-11-01 15:18:28,414 - INFO - joeynmt.data - First training example:
+	[SRC] D@@ a@@ v@@ i@@ d G@@ all@@ o@@ : D@@ as ist B@@ il@@ l L@@ an@@ ge@@ . I@@ ch b@@ in D@@ a@@ ve G@@ all@@ o@@ .
+	[TRG] D@@ a@@ v@@ i@@ d G@@ all@@ o@@ : Th@@ is is B@@ il@@ l L@@ an@@ ge@@ . I@@ '@@ m D@@ a@@ ve G@@ all@@ o@@ .
+2023-11-01 15:18:28,414 - INFO - joeynmt.data - First 10 Src tokens: (0) <unk> (1) <pad> (2) <s> (3) </s> (4) t@@ (5) s@@ (6) e (7) e@@ (8) d@@ (9) o@@
+2023-11-01 15:18:28,414 - INFO - joeynmt.data - First 10 Trg tokens: (0) <unk> (1) <pad> (2) <s> (3) </s> (4) t@@ (5) s@@ (6) e (7) e@@ (8) d@@ (9) o@@
+2023-11-01 15:18:28,414 - INFO - joeynmt.data - Number of unique Src tokens (vocab_size): 204
+2023-11-01 15:18:28,414 - INFO - joeynmt.data - Number of unique Trg tokens (vocab_size): 204
